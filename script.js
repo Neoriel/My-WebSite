@@ -18,6 +18,7 @@ function executeCommand(command) {
         output.innerHTML += '- habilidades: muestra mis habilidades y destrezas<br><br>';
         output.innerHTML += '- lenguajes: muestra los lenguajes de programación que conozco<br><br>';
         output.innerHTML += '- idiomas: muestra los idiomas que hablo y a que nivel<br><br>';
+        output.innerHTML += '- proyectos: muestra mis proyectos<br><br>'
     } else if (command === 'estudios') {
         output.innerHTML += 'Estudios realizados:<br><br>';
         output.innerHTML += '- Pasantia en programacion<br><br>';
@@ -74,19 +75,15 @@ function executeCommand(command) {
             output.innerHTML += '- Spanish (Native)<br><br>';
             output.innerHTML += '- English (Intermediate)<br><br>';
             output.innerHTML += '- Japanese (Basic)<br><br>';
+        }
     
+
 
     }
 
 
-}
-
-
-
-
-
-
-
+   
+    
 
 
 
